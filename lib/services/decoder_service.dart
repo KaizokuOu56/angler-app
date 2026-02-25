@@ -14,7 +14,7 @@ class DecoderService {
 
   DecoderService({
     this.threshold = 100, // Lowered for iPad safety
-    this.unit = const Duration(milliseconds: 200),
+    this.unit = const Duration(milliseconds: 400),
   });
 
   void processBrightness(double brightness) {

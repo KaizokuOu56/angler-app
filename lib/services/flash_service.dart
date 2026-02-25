@@ -2,7 +2,7 @@ import 'package:torch_light/torch_light.dart';
 import '../utils/morse.dart';
 
 class FlashService {
-  static const unit = Duration(milliseconds: 200); // 5Hz
+  static const unit = Duration(milliseconds: 400); // 5Hz
 
   static Future<void> flashMessage(String text) async {
     for (var char in text.toUpperCase().split('')) {
